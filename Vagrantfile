@@ -85,6 +85,10 @@ Vagrant.configure("2") do |config|
       # Change VM's webserver's configuration to use shared folder.
       # (Look inside test-website.conf for specifics.)
       cp /vagrant/test-website.conf /etc/apache2/sites-available/
+
+      chmod 777 /vagrant
+      chmod 777 /vagrant/www
+      chmod 777 /vagrant/www/index.php
       
       # activate our website configuration ...
       a2ensite test-website
@@ -105,6 +109,12 @@ Vagrant.configure("2") do |config|
       # Change VM's webserver's configuration to use shared folder.
       # (Look inside query-website.conf for specifics.)
       cp /vagrant/query-website.conf /etc/apache2/sites-available/
+
+      chmod 777 /vagrant
+      chmod 777 /vagrant/www
+      chmod 777 /vagrant/www/second_page
+      chmod 777 /vagrant/www/second_page/index.php
+      
 
       
       # activate our website configuration ...

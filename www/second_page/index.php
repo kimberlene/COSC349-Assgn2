@@ -34,7 +34,6 @@ while($row = $q->fetch()){
 ?>
 </table>
 
-<p>Hello. Do you want to add some more<a href="http://ec2-54-235-32-138.compute-1.amazonaws.com">sticky notes</a>?</p>
 
 </body>
 </html>
