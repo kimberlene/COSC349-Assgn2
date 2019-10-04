@@ -15,10 +15,10 @@
 
 <?php
  
- $db_host   = 'tutorial-db-instance.czlgx4yz6s1y.us-east-1.rds.amazonaws.com';
- $db_name   = 'sample';
- $db_user   = 'tutorial_user';
- $db_passwd = 'Kimberlene1998';
+ $db_host   = 'database-1.czlgx4yz6s1y.us-east-1.rds.amazonaws.com';
+$db_name   = 'test';
+$db_user   = 'admin';
+$db_passwd = 'password';
 
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
 

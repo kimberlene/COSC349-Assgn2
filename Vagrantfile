@@ -16,9 +16,9 @@ Vagrant.configure("2") do |config|
     # parameters from environment variables (more secure than
     # committing security credentials to your Vagrantfile).
     #
-    # aws.access_key_id = "YOUR KEY"
-    # aws.secret_access_key = "YOUR SECRET KEY"
-    # aws.session_token = "SESSION TOKEN"
+    aws.access_key_id = "ASIAVFHBPOWQGAYHEVQV"
+    aws.secret_access_key = "v7FeB7MLC/Fi0O7BamaRPr4x7T1P8827EXeIqScU"
+    aws.session_token = "FQoGZXIvYXdzEFcaDP8rn9xvA5IpxyRiVyKLAm61es3G52WD9kupkzYBd/1nbGQxPlO78482LNJLLMLm/yuvBDlhcyLHHUhucSeorqPDQO4ZMugUIii73gaYGHoR4zX06Kcer9SYpa40BXvtyLqP02lH3UNsYxpRlrH9ZewZEmbPn7ff5ZV9HJOpgv04aLmKLyrli2cPl+NMohkZwTyOK3e6wRfSki8lwlxRIDO4dIsL8O5XNet1p6zkQT/fqhqK3BtRoFF1YBDJ9n8NW7uJAI213uYyq5hGabYmkgCMDgAimp4c8/hoepVJgqDizD48MmX1bIYLY5UQRG7EDNPu6E7rS3KSgI9n8OZISzPNBVdjwNUUJaVvJrSgGxv+zQYJRM7UroLS+yjwkN3sBQ=="
 
     # The region for Amazon Educate is fixed.
     aws.region = "us-east-1"
@@ -48,7 +48,8 @@ Vagrant.configure("2") do |config|
     # they should be comma-separated (if you use more than one) within
     # square brackets.
     #
-    aws.security_groups = ["sg-030ea28d805b9fc56", "sg-0f79c1398dc36da71","sg-0f1a0a9d49c5ffc79"]
+    #aws.security_groups = ["sg-030ea28d805b9fc56", "sg-0f79c1398dc36da71"]
+    aws.security_groups =["sg-04c4a8de00f3e0017"]
 
     # For Vagrant to deploy to EC2 for Amazon Educate accounts, it
     # seems that a specific availability_zone needs to be selected
