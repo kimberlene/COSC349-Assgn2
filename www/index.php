@@ -54,7 +54,7 @@ else{
 ?>
 
 
-<p>See all your sticky notes <a href="http://192.168.33.12"> here!</a>?</p>
+<p>See all your sticky notes <a href="http://ec2-54-235-32-138.compute-1.amazonaws.com"> here!</a>?</p>
 
 </body>
 </html>
