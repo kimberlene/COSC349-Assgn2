@@ -28,10 +28,10 @@
 if(isset($_POST["submit"])){ 
 
  
-$db_host   = '192.168.33.11';
-$db_name   = 'fvision';
-$db_user   = 'webuser';
-$db_passwd = 'insecure_db_pw';
+$db_host   = 'tutorial-db-instance.czlgx4yz6s1y.us-east-1.rds.amazonaws.com';
+$db_name   = 'sample';
+$db_user   = 'tutorial_user';
+$db_passwd = 'Kimberlene1998';
 
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
 
